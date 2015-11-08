@@ -9,4 +9,9 @@ html {
 }
 
 /* Write your solution here */
-
+@media screen and (min-width: 406px) and (max-width: 1090px){
+  div#monkey img{
+    position: relative;
+    bottom: 600px;
+    right: 4%;
+}

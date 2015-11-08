@@ -1,0 +1,9 @@
+
+@media only screen and (min-width: 1196px){
+  body div#bear img{
+    position: fixed;
+    top: 80px;
+  }
+}
+
+

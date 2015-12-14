@@ -11,7 +11,7 @@ Use your knowledge of media queries and absolute positioning to help these anima
 3. cd into the local folder for the project.
 4. Open the index.html in the browser to navigate to different animal pages to see which ones you can rescue. By clicking and dragging on the corner of the browser see where the animals run into trouble. 
 5. Take advantage of media queries using max-width for desktop down and min-width for mobile up designs. Also utilize positioning: absolute, as well as properties such as top:, left:, right: ,bottom: to set the animals positioning. You can also use CSS transform: rotate() if you wish to turn the animals. A single media query should be used to solve each page.  
-Write the media queries neccesary in the css files for each corresponding animal:  
+Write the media queries necessary in the css files for each corresponding animal:  
   * For the bear, when sizing the browser from smaller to larger (mobile up), when the screen reaches 1196px stop him from falling off the cliff by setting him to stay 800px from the left side of the screen before he reaches the edge.
   * For the ostrich, starting with the screen larger and dragging it smaller (desktop down) have the ostrich jump upwards 50px closer to the top of the screen to avoid being eaten by the aligator. As the screen gets smaller then he will run on top of Mr. Aligators back.
   * For the monkey, use a combination of min-width and max-width to set a media query that will allow the Monkey to jump up over the Spice Girls from screen size of 406px to 1090px keeping him safe from their affection.

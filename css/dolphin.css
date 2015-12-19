@@ -19,4 +19,15 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (max-width: 1000px) and (min-width: 705px){
+  #dolphin {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
 
+}
+
+
+
+}

@@ -18,5 +18,15 @@ html {
   right: 0;
 }
 
+@media screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transform: rotate(-0.25turn);
+  }
+}
+
+
 /* Write your solution here */
 

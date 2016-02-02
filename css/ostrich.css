@@ -10,3 +10,20 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1350px) {
+
+  #ostrich {
+    top: -25px;
+    right: 25px;
+    transform: rotate(0.15turn);
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+
+  #ostrich {
+    top: -35px;
+    right: 150px;
+    transform: rotateY(20deg);
+  }
+}

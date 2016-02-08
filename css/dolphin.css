@@ -16,7 +16,35 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  /* some fun stuff to try */
+  #dolphin {
+    -webkit-transition: 1s ease-in;
+    -moz-transition: 1s ease-in;
+    -o-transition: 1s ease-in;
+    transition: 1s ease-in;
+  }
 }
 
 /* Write your solution here */
 
+#dolphin {
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1175px) {
+#dolphin {
+  top: 150px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1175px) {
+#dolphin {
+  -webkit-transform: rotate(-75deg);
+  -moz-transform: rotate(-75deg);
+  -o-transform: rotate(-75deg);
+  transform: rotate(-75deg);
+}
+}

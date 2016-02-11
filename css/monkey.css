@@ -4,9 +4,21 @@ html {
 
 #monkey {
   position: absolute;
-  top: 550px;
+  top: 20px;
   right: 120px;
 }
 
 /* Write your solution here */
 
+@media only screen and (min-width: 800px) and (max-width: 1196px) {
+
+	#monkey {
+
+		position: relative;
+		left: 800px;
+		right: 1196px;
+		top: 20px;
+	}
+
+
+}

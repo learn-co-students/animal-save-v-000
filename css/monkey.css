@@ -10,3 +10,10 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
+  /* trigger @media query between the range of 406px and 1090px */
+  #monkey { /* apply to the #monkey id */
+    position: absolute; /* permit element to move with scrolling */
+    right: 0; /* next to right border */
+    top: 0; /* next to top border */
+}

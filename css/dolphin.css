@@ -20,3 +20,13 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+  position: absolute;
+  top: 10px;
+  left: 120px;
+  transform: rotate(1.5turn);
+}
+
+
+}

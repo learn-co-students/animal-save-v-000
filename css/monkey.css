@@ -8,11 +8,10 @@ html {
   right: 120px;
 }
 
-@media only screen and (min-width: 450px) and (max-width: 1100px) {
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
   #monkey {
-    float: left;
-    left: auto;
-    right: auto;
+    right: 0;
+    top: 0;
   }
 }
 

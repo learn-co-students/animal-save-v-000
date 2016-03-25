@@ -15,6 +15,8 @@ Write the media queries neccesary in the css files for each corresponding animal
   * For the bear, when sizing the browser from smaller to larger (mobile up), when the screen reaches 1196px stop him from falling off the cliff by setting him to stay 800px from the left side of the screen before he reaches the edge.
   * For the ostrich, starting with the screen larger and dragging it smaller (desktop down) have the ostrich jump upwards 100px closer to the top of the screen to avoid being eaten by the aligator. As the screen gets smaller then he will run on top of Mr. Aligators back.
   * For the monkey, use a combination of min-width and max-width to set a media query that will allow the Monkey to jump up over the Spice Girls from screen size of 406px to 1090px keeping him safe from their affection.
+
+
   * For the dolphin, using min-width and max-width help her rotate and jump up through the hoop from screen sizes of 642px to 1090px. Note: you can use transform: rotate() command to accomplish this. Read about the setting for rotate [here](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
 
  There is a finished working copy of this site [here](http://learn-co-curriculum.github.io/animal-save/).

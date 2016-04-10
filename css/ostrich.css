@@ -10,3 +10,15 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1350px) {
+
+  #ostrich {
+    top: -50px;
+    -webkit-animation:spin 0.5s linear 1;
+    -moz-animation:spin 0.5s linear 1;
+    animation:spin 0.5s linear 1;
+  }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+}

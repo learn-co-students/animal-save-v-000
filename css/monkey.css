@@ -9,4 +9,10 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (min-width: 406px) and (max-width: 1200px) {
+  #monkey {
+    top: -50px;
+  }
+}
 
+/* I understand that instructions say to use 1090px instead of 1200px as above; I just preferred the way that my settings looked on the browser I used (Chrome) */

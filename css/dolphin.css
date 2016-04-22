@@ -14,15 +14,23 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
+  top: 100px;
   right: 0;
+  -webkit-transform: rotate(-90deg);
 }
 
-@media only screen and (-width: 0px) {
-  #dolphin {  }
+@media only screen and (min-width: 1090px) {
+  #dolphin { 
+    top: 400px;
+    -webkit-transform: rotate(0deg);
+  }
 }
 
-
+@media only screen and (max-width: 642px) {
+  #dolphin { 
+    top: 400px;
+    -webkit-transform: rotate(0deg);
+  }
 
 /* Write your solution here */
 

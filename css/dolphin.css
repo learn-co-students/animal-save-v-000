@@ -23,7 +23,7 @@ html {
 <<<<<<< HEAD
 @media only screen and (min-width: 642px) and (max-width: 1090px) {
   #dolphin {
-    top: 160px;
+    top: 155px;
 
     -webkit-transform: translate(100px) rotate(-40deg);
     -webkit-transform-origin: 0 250px;

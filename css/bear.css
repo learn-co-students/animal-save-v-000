@@ -9,4 +9,12 @@ html {
 }
 
 /* Write your solution here */
+<<<<<<< HEAD
+@media only screen and (min-width: 1196px) {
+	#bear {
+		left: 800px;
+	}
+}
+=======
 
+>>>>>>> 96708c69f5ec07094e739f8bb28958aed955eaa0

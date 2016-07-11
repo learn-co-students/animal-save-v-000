@@ -9,11 +9,8 @@ html {
 }
 
 /* Write your solution here */
-@media screen only (min-width: 1195px) {
+@media only screen and (min-width: 1196px) {
 #bear {
   left: 800px;
-border-right: green
-
-  /*position:absolute;*/
   }
 }

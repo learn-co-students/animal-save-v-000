@@ -10,3 +10,11 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+
+  /*allow the monkey to jump up over the Spice Girls*/
+  #monkey {
+    top: 0px;
+  }
+
+}

@@ -17,6 +17,12 @@ html {
   top: 400px;
   right: 0;
 }
-
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+    top: 100px;
+    right: 0;
+    transform: rotate(270deg);
+  }
+}
 /* Write your solution here */
 

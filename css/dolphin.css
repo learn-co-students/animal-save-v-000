@@ -18,5 +18,100 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+@media only screen and (max-width: 1090px) {
+  #dolphin {
+    top: 300px;
+    transform: rotate(-15deg);
+  }
+}
 
+@media only screen and (max-width: 1050px) {
+  #dolphin {
+    top: 200px;
+    transform: rotate(-30deg);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #dolphin {
+    top: 100px;
+    transform: rotate(-50deg);
+  }
+}
+
+@media only screen and (max-width: 896px) {
+  #dolphin {
+    top: 100px;
+    transform: rotate(-70deg);
+  }
+}
+
+@media only screen and (max-width: 844px) {
+  #dolphin {
+    top: 100px;
+    transform: rotate(-85deg);
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  #dolphin {
+    top: 100px;
+    transform: rotate(-100deg);
+  }
+}
+
+@media only screen and (max-width: 705px) {
+  #dolphin {
+    top: 200px;
+    transform: rotate(-125deg);
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #dolphin {
+    top: 300px;
+    transform: rotate(-125deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #dolphin {
+    top: 400px;
+    transform: rotate(-125deg);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #dolphin {
+    top: 450px;
+    transform: rotate(-100deg);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #dolphin {
+    top: 450px;
+    transform: rotate(-75deg);
+  }
+}
+
+@media only screen and (max-width: 525px) {
+  #dolphin {
+    top: 425px;
+    transform: rotate(-50deg);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #dolphin {
+    top: 400px;
+    transform: rotate(-25deg);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #dolphin {
+    top: 400px;
+    transform: rotate(0deg);
+  }
+}

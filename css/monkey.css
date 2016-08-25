@@ -8,5 +8,50 @@ html {
   right: 120px;
 }
 
-/* Write your solution here */
+@media only screen and (min-width:406px) and (max-width:1090px) {
+  #monkey {
+    top: -25px;
+  }
+}
 
+@media only screen and (max-width:1090px) {
+  #monkey {
+    transform: rotate(-75deg);
+  }
+}
+
+@media only screen and (max-width:980px) {
+  #monkey {
+    transform: rotate(-150deg);
+  }
+}
+
+@media only screen and (max-width:880px) {
+  #monkey {
+    transform: rotate(-190deg);
+  }
+}
+
+@media only screen and (max-width:780px) {
+  #monkey {
+    transform: rotate(-240deg);
+  }
+}
+
+@media only screen and (max-width:680px) {
+  #monkey {
+    transform: rotate(-290deg);
+  }
+}
+
+@media only screen and (max-width:550px) {
+  #monkey {
+    transform: rotate(-330deg);
+  }
+}
+
+@media only screen and (max-width:406px) {
+  #monkey {
+    transform: rotate(0);
+  }
+}

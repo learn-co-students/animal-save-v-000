@@ -8,9 +8,12 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
-@media only screen and (min-width: 800px) {
- .column {
-   float: left;
- }
+/* Write your solution here
+#bear {
+ width: 100%;
+ float: none;
+} */
+
+@media only screen and (min-width: 1196px) {
+  #bear {margin-left: 800px;}
 }

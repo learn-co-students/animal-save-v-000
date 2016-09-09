@@ -9,7 +9,11 @@ html {
 }
 
 /* Write your solution here */
-/* mobile up 1196px move bear 800px from left */
+/* mobile up
+1196px stop bear
+set bear 800px from left */
 @media only screen and (min-width: 1196px) {
-  #bear {margin-left: 800px;}
+  #bear {
+    display: block;
+    left: 800px;
 }

@@ -10,5 +10,7 @@ html {
 
 /* Write your solution here */
 /* desktop down jump up 100px to top of screen */
-#ostrich {margin-top: 100px;}
-}
+  @media only screen and (max-width: 837px) {
+    #ostrich {margin-top: 100px;}
+
+  }

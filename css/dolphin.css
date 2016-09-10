@@ -25,5 +25,20 @@ html {
   #dolphin {
     transform: rotate(-0.25turn);
     right: 0;
+    display: block;
+    height: 338.4px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    transform: matrix(6.12323);
+  }
+}
+
+@media only screen and (min-width: 802px) {
+  #dolphin {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 400px;
   }
 }

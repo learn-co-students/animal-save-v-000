@@ -33,12 +33,3 @@ html {
     transform: matrix(6.12323);
   }
 }
-
-@media only screen and (min-width: 802px) {
-  #dolphin {
-    display: block;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-  }
-}

@@ -11,10 +11,7 @@ html {
 @media screen and (min-width: 1275px){
 
   #bear {
-    /*display:none;*/
-    position:relative;
     left: 875px;
-    border: 5px dotted green;
   }
 }
 

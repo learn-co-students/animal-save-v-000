@@ -10,3 +10,9 @@ html {
 
 /* Write your solution here */
 
+/*correct the max width to completely avoid touching Spice Girls*/
+@media only screen and (min-width: 406px) and (max-width: 1177px){
+    #monkey{
+        top: -50px;
+    }
+}

@@ -10,3 +10,13 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1200px) and (min-width: 420px) {
+
+  #monkey {
+    position: absolute;
+    top: 0px;
+    right: 120px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+}

@@ -19,4 +19,12 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+    top: 200px;
+  -webkit-transform: translate(100px) rotate(-90deg);
+  -webkit-transform-origin: 0;
+  transform: translate(100px) rotate(-90deg);
+  transform-origin: 0;
+  }
+}

@@ -9,4 +9,17 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1350px) {
+  #ostrich {
+                                  top: -50px;
+                    transform: rotate(10deg);
+                              transition: 2s;
+        transition-timing-function: ease-out;
+                -ms-transform: rotate(10deg); /* IE 9 */
+                          -ms-transition: 2s; /* IE 9 */
+    -ms-transition-timing-function: ease-out; /* IE 9 */
+            -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+                      -webkit-transition: 2s; /* Chrome, Safari, Opera */
+-webkit-transition-timing-function: ease-out; /* Chrome, Safari, Opera */
+  }
+}

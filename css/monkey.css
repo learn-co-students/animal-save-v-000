@@ -9,4 +9,18 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
+  #monkey {
+                                                       top: 0;
+                                                     right: 0;
+                                               transition: 2s;
+                          transition-timing-function: ease-in;
+        transition-timing-function: cubic-bezier(0, 2, 0, .7);
+                                           -ms-transition: 2s; /* IE 9 */
+                      -ms-transition-timing-function: ease-in; /* IE 9 */
+    -ms-transition-timing-function: cubic-bezier(0, 2, 0, .7); /* IE 9 */
+                                       -webkit-transition: 2s; /* Chrome, Safari, Opera */
+                  -webkit-transition-timing-function: ease-in; /* Chrome, Safari, Opera */
+-webkit-transition-timing-function: cubic-bezier(0, 2, 0, .7); /* Chrome, Safari, Opera */
+  }
+}

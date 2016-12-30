@@ -19,4 +19,18 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+  #dolphin {
+                                       top: 50px;
+                                    right: -50px;
+                       transform: rotate(360deg);
+                                  transition: 1s;
+         transition-timing-function: ease-in-out;
+                   -ms-transform: rotate(360deg); /* IE 9 */
+                              -ms-transition: 1s; /* IE 9 */
+     -ms-transition-timing-function: ease-in-out; /* IE 9 */
+               -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+                          -webkit-transition: 1s; /* Chrome, Safari, Opera */
+ -webkit-transition-timing-function: ease-in-out; /* Chrome, Safari, Opera */
+  }
+}

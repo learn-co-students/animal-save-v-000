@@ -9,4 +9,15 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width: 1196px) {
+    #bear {
+      top: 35px;
+      left: 800px;
+              transform: rotate(20deg);
+              transform-origin: 30px 0;
+          -ms-transform: rotate(20deg); /* IE 9 */
+          -ms-transform-origin: 30px 0; /* IE 9 */
+      -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+      -webkit-transform-origin: 30px 0; /* Chrome, Safari, Opera */
+    }
+}

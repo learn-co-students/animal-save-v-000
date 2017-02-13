@@ -8,5 +8,27 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* Write your solution here to save ostrich */
 
+@media only screen and (max-width: 1315px) {
+
+	#ostrich {
+		top: -50px;
+	}
+}
+
+@media only screen and (min-width: 631px) and (max-width: 920px) {
+
+	#ostrich {
+		top: -65px;
+		/* right: 300px; */
+	}
+}
+
+@media only screen and (max-width: 630px) {
+
+	#ostrich {
+		top: 50px;
+		left: 0;
+	}
+}

@@ -9,4 +9,20 @@ html {
 }
 
 /* Write your solution here */
+/* For the monkey, use a combination of min-width
+and max-width to set a media query that will allow
+the monkey to jump up over the Spice Girls from
+screen size of 406px to 1090px keeping him safe
+from their affection. */
 
+@media screen and (max-width: 405px) {
+  #monkey {
+    left: 60px;
+  }
+}
+
+@media screen and (min-width: 406px) and (max-width: 1090px) {
+  #monkey {
+    top: 0px;
+  }
+}

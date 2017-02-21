@@ -18,5 +18,7 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
-
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
+  #dolphin {
+    transform: rotate(-.25turn);
+}

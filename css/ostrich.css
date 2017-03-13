@@ -9,4 +9,17 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (max-width: 1320px) {
+  #ostrich {
+    position: fixed;
+    right: 0;
+    top: -100px;
+  }
+}
 
+/*@media only screen and (min-width: 1241px) {
+  #ostrich {
+    position: absolute;
+    right: 40px;
+  }
+}*/

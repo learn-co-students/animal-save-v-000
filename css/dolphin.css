@@ -1,4 +1,4 @@
-html {
+cd html {
   background: url(../images/water-park.jpg) no-repeat top left;
 }
 
@@ -20,3 +20,12 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 642px) and (max-width: 1090px){
+
+  #dolphin {
+    position: absolute;
+    transform: rotate(270deg);
+    top: 100px;
+    right: 0;
+  }
+}

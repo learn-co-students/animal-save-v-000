@@ -8,5 +8,37 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+#poof {
+  display: none;
+}
 
+/* Write your solution here */
+@media only screen and (max-width: 1306px){
+#ostrich {
+  top: -50px;
+  -ms-transform: rotate(-15deg);
+   -webkit-transform: rotate(-15deg);
+   transform: rotate(-15deg);
+
+}
+}
+
+@media only screen and (max-width: 1250px){
+#ostrich {
+  top: -50px;
+  right: 50px;
+  -ms-transform: rotate(-15deg);
+   -webkit-transform: rotate(-15deg);
+   transform: rotate(-15deg);
+   display: none;
+}
+
+#poof{
+  display:block;
+  position: absolute;
+  top: 0px;
+  right: 150px;
+  width: 10%;
+  height: 10%;
+}
+}

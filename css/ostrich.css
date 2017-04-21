@@ -1,4 +1,4 @@
-html {
+  html {
   background: url(../images/croc.jpg) no-repeat top left;
 }
 
@@ -9,4 +9,8 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1000px) {
+  #ostrich {
+    top: -50px;
+  }
+}

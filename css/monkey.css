@@ -10,3 +10,16 @@ html {
 
 /* Write your solution here */
 
+@media (max-width: 1150px) and (min-width: 800px) {
+  #monkey {
+    top: 32px;
+    transform: rotate(-30deg);
+  }
+}
+
+@media (max-width: 800px) and (min-width: 450px) {
+  #monkey {
+    top: 32px;
+    transform: rotate(30deg);
+  }
+}

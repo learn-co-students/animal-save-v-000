@@ -16,7 +16,15 @@ html {
   position: absolute;
   top: 400px;
   right: 0;
+  transition: top .5s, transform 2s ease-out;
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1090px) and (min-width:406px){
+  #dolphin {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    transform: rotate(270deg);
+  }
+}

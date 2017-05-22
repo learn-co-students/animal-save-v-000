@@ -20,3 +20,14 @@ html {
 
 /* Write your solution here */
 
+/*min-width and max-width help her rotate and jump up through the hoop from screen sizes of 642px to 1090px. Note: you can use transform: rotate() command*/
+
+@media only screen and (min-width: 642px) and (max-width: 1090px) {
+
+  #dolphin {
+    top: 0px;
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}

@@ -15,7 +15,6 @@ html {
 
   #monkey {
     top: 0px;
-    transform: skewX(20deg);
     transform: rotate(-20deg);
   }
 }

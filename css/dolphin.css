@@ -19,4 +19,17 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width:748px) and (max-width:1090px) {
+  #dolphin {
+    top: 10px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+}
+@media only screen and (min-width: 700px) and (max-width: 748px) {
+  #dolphin {
+    top: 10px;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}

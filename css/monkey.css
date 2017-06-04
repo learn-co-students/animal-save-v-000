@@ -10,3 +10,14 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1090px) and (min-width: 406px) {
+
+  #monkey {
+    top: -50px;
+  }
+
+}
+
+/* In the working example in this lab, top: is apparently set for 0; in the media query,
+so that monkey's back paws are in the middle of the girls' heads. I set it for -50;
+just so that the entire monkey is clearly separated from the rest of the pricture. */

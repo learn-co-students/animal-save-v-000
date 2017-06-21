@@ -3,10 +3,9 @@ html {
 }
 
 #bear {
-  position: absolute;
   top: 100px;
+  position: absolute;
   right: 0;
 }
 
 /* Write your solution here */
-

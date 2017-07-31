@@ -9,4 +9,16 @@ html {
 }
 
 /* Write your solution here */
-
+/*
+<body>
+  <div id="ostrich">
+    <img src="images/ostrich.png" alt="Clumzy Ostrich">
+  </div>
+</body>
+*/
+@media only screen and (max-width: 1260px) {
+  #ostrich {
+    position: absolute;
+    top: -50px;
+  }
+}

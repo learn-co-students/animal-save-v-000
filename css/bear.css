@@ -8,5 +8,14 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* For the bear, when sizing the browser from smaller to larger (mobile up),
+ when the screen reaches 1196px stop him from falling off the cliff by setting
+him to stay 800px from the left side of the screen before he reaches the edge. */
 
+
+/* Write your solution here */
+@media only screen and (min-width: 1196px) {
+  #bear {
+    left: 800px;
+  }
+}

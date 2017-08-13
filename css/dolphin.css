@@ -3,7 +3,7 @@ html {
 }
 
 #ring {
-  background: url(../images/water-ring.png) no-repeat top left;
+  background: url(http://learn-co-curriculum.github.io/animal-save/images/water-ring.png) no-repeat top left;
   width: 1200px;
   height: 750px;
   position: relative;
@@ -19,4 +19,9 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1090px) and (min-width: 642px) {
+  #dolphin {
+    transform: rotate(0.75turn);
+    top: 100px;
+  }
+}

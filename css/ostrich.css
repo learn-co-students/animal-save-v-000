@@ -10,6 +10,7 @@ html {
 
 /* Write your solution here */
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1300px) {
 
   #ostrich {
@@ -18,3 +19,10 @@ html {
 }
 
 /*solution finished*/
+=======
+@media only screen and (max-width: 1320px) {   
+  #ostrich {    
+    top: -50px;   
+  }   
+}
+>>>>>>> solution

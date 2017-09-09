@@ -1,5 +1,3 @@
-
-
 # Animal Save!
 
 Use your knowledge of media queries and absolute positioning to help these animals escape sudden danger.
@@ -20,7 +18,7 @@ Write the media queries necessary in the css files for each corresponding animal
  There is a finished working copy of this site [here](http://learn-co-curriculum.github.io/animal-save/).
 
 ## Resources
- 
+
 [Finished Solution Example](http://learn-co-curriculum.github.io/animal-save/)  
 [Mozilla Dev Network - CSS Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 

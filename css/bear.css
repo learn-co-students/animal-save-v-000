@@ -8,5 +8,30 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/*div {
+    display: block;
+}*/
+/*@media screen only and (min-width: 800px){
 
+  #bear {
+    margin-left: 800px;
+    float: left;
+}*/
+
+/*@media all and (min-width: 800px) and (max-width: 1196px) { #bear { right: 200px; } }*/
+
+@media all and (min-width: 800px) {
+
+  #bear {
+      left: 800px;
+  }
+}
+
+/*@media screen only and (min-width: 800px) {
+
+  #bear {
+      float: none;
+  }
+}*/
+
+/* Write your solution here */

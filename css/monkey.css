@@ -10,3 +10,51 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1265px) {
+#monkey {
+  top: 250px;
+  transform: rotate(0.05turn);
+ }
+}
+
+@media only screen and (max-width: 1250px) {
+  #monkey {
+    top: 100px;
+    transform: rotate(0.07turn);
+  }
+}
+
+@media only screen and (max-width: 1230px) {
+  #monkey {
+    top: -25px;
+    transform: rotate(0.06turn);
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  #monkey {
+    top: -30px;
+    transform: rotate(-0.01turn);
+  }
+}
+@media only screen and (max-width: 740px) {
+  #monkey {
+    top: -35px;
+    transform: rotate(0.03turn);
+  }
+}
+
+@media only screen and (max-width: 611px) {
+  #monkey {
+    top: -35px;
+    transform: rotate(-0.03turn);
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  #monkey {
+    top: 500px;
+    left: 30px;
+    transform: rotate(0.00turn);
+  }
+}

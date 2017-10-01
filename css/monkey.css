@@ -9,4 +9,19 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
+  #monkey {
+    position: absolute;
+    top: 10px;
 
+  }
+}
+@media only screen and (max-width: 700px) {
+  #monkey img{
+    transition-duration: 0.8s;
+  	transition-property: transform;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}

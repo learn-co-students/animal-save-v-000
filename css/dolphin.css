@@ -20,10 +20,9 @@ html {
 
 /* Write your solution here */
 
-@media only screen (max-width: 795px) and (min-width: 600px){
+@media only screen and (min-width: 642px) and (max-width: 1090px){
   #dolphin {
-    position: right;
-    top: 0px;
-    transform: rotate(0.5turn);
+    top: 50px;
+    transform: rotate(-.13turn);
   }
 }

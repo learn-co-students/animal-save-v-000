@@ -9,12 +9,8 @@ html {
 }
 
 /* Write your solution here */
-@media only screen and (max-width:1350px) and (min-width:1000px){
+@media only screen and (max-width:1350px){
   #ostrich{
-    position: relative;
-    top:-100px;
-    right:0;
-    left:0;
-    bottom: 0;
+    top:-50px;
   }
 }

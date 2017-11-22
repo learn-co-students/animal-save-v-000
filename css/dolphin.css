@@ -19,4 +19,18 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (min-width: 642px max-width: 1090px) {
+  #dolphin {
+    position: absolute;
+    top: 500px;
+    right: 100px;
 
+  }
+
+  #right {
+    position: relative;
+    top: 0;
+    left: 2px;
+    z-index: 2;
+  }
+}

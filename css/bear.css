@@ -10,3 +10,9 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1196px) { /* trigger @media query at 1196px or larger */
+  #bear { /* applies to the #bear id */
+    position: fixed; /* will not move as screen scrolls */
+    left: 800px; /* stay 800px from left side always */
+  }
+}

@@ -20,3 +20,40 @@ html {
 
 /* Write your solution here */
 
+/* --- DOLPHIN FLIP --- */
+
+@media only screen and (min-width: 978px) and (max-width:1090px) {
+  #dolphin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(288deg);
+  }
+}
+
+@media only screen and (min-width: 866px) and (max-width:977px) {
+  #dolphin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(216deg);
+  }
+}
+
+@media only screen and (min-width: 754px) and (max-width:865px) {
+  #dolphin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(144deg);
+  }
+}
+
+@media only screen and (min-width: 642px) and (max-width:754px) {
+  #dolphin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(72deg);
+  }
+}

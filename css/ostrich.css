@@ -10,3 +10,10 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1320px) { /* trigger @media query at 1320px and below*/
+  #ostrich { /* for the #ostrich id*/
+    position: absolute; /* allow to scroll relative to element */
+    top: -50px; /* move "higher" relative to default */
+    right: 0; /* stay next to right border */
+  }
+}

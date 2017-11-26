@@ -1,11 +1,18 @@
 html {
-  background: url(../images/spice-girls.jpg) no-repeat top left;
+  background: url(../images/grand-canyon-942126_640.jpg) no-repeat top left;
 }
 
 #monkey {
   position: absolute;
   top: 550px;
   right: 120px;
+}
+
+@media only screen and (min-width: 406px) and (max-width: 1090px) {
+  #monkey {
+    right: 0;
+    top: 0;
+  }
 }
 
 /* Write your solution here */

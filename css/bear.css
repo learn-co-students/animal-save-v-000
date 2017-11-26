@@ -10,3 +10,15 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1196px) {
+	
+#bear {
+		position: relative;
+		top: 92px;
+		left: 800px;
+		right: 0;
+		
+ }
+
+}
+

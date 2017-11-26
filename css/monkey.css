@@ -10,3 +10,18 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1200px) {
+  #monkey {
+    position: absolute;
+    top: -10px;
+    right: 120px
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #monkey {
+    padding: absolute;
+    top: 550px;
+    right: 120px;
+  }
+}

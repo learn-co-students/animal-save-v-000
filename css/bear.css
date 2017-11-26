@@ -1,3 +1,5 @@
+/* Based on the background image, this bear is HUGE! There's a person crouched on the cliff a third of the way down on the left that wouldn't even come up to the bear's knees, haha =) */
+
 html {
   background: url(../images/cliff.jpg) no-repeat top left;
 }
@@ -10,3 +12,8 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1196px) {
+  #bear {
+    left: 800px;
+  }
+}

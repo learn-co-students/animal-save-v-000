@@ -9,4 +9,18 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (max-width: 1100px) {
+	#monkey {
+		position: absolute;
+		top: 10px;
+		right: 50px;
+	}
+}
 
+@media only screen and (max-width: 406px) {
+	#monkey {
+		position: absolute;
+		top: 500px;
+		right: 50px;
+	}
+}

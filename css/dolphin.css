@@ -17,6 +17,12 @@ html {
   top: 400px;
   right: 0;
 }
+@media only screen and (max-width: 950px){
+
+  #dolphin{
+   top:-100px;
+  }
+}
 
 /* Write your solution here */
 

@@ -6,7 +6,7 @@ html {
   background: url(../images/water-ring.png) no-repeat top left;
   width: 1200px;
   height: 750px;
-  position: relative;
+  position: absolute;
   top: -10px;
   left: -8px;
   z-index: 1;
@@ -14,9 +14,18 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
-  right: 0;
+  top: 100px;
+  right: 800px;
 }
 
 /* Write your solution here */
+
+@media screen and (min-width: 800px) and (max-width: 1196px) {
+  
+  #dolphin {
+    position: relative;
+    left: 800px;
+    right: 0px;
+  }
+
 

@@ -1,12 +1,25 @@
+
+
 html {
   background: url(../images/cliff.jpg) no-repeat top left;
 }
 
 #bear {
-  position: absolute;
+  position: relative;
   top: 100px;
-  right: 0;
+
 }
 
 /* Write your solution here */
 
+@media only screen and (min-width: 800px) and (max-width: 1196px) {
+
+
+	#bear {
+		position: relative;
+		left: 800px;
+		right: 1196px;
+
+	}
+	
+}

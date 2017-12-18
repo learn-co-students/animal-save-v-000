@@ -5,8 +5,20 @@ html {
 #bear {
   position: absolute;
   top: 100px;
-  right: 0;
+  right: 400px;
 }
 
 /* Write your solution here */
-
+/* For the bear, when sizing the browser from smaller
+to larger (mobile up), when the screen
+reaches 1196px stop him from falling off
+the cliff by setting him to stay 800px from
+the left side of the screen before he reaches
+the edge.
+@media only screen and (max-width: 900px) {}
+*/
+@media only screen and (max-width: 1196px) {
+  #bear{
+  padding-left: 800px;
+ }
+}

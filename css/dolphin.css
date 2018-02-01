@@ -19,4 +19,49 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (min-width: 1150px) {
 
+  #dolphin {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1090px) {
+
+  #dolphin {
+    top: 200px;
+    transform: rotate(0.75turn);
+  }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 1050px) {
+
+  #dolphin {
+    top: 50px;
+    transform: rotate(0.5turn);
+    right: 75px;
+  }
+}
+
+@media only screen and (min-width: 790px) and (max-width: 850px) {
+
+  #dolphin {
+    top: 200px;
+    transform: rotate(0.25turn);
+    right: 250px;
+  }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 790px) {
+
+  #dolphin {
+    right: 300px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+
+  #dolphin {
+    display: none;
+  }
+}

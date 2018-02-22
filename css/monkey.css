@@ -9,4 +9,11 @@ html {
 }
 
 /* Write your solution here */
+@media screen and (max-width: 1090px) and (min-width: 406px) {
+  div#monkey {
+    position: absolute;
+    top: auto;
+    right: 300px;
+  }
 
+}

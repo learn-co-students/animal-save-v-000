@@ -1,3 +1,4 @@
+
 html {
   background: url(../images/croc.jpg) no-repeat top left;
 }
@@ -7,13 +8,12 @@ html {
   top: 50px;
   right: 0;
 }
-}
 
-@media only screen and (min-width: 1350px) {
+/* Write your solution here */
+
+@media only screen and (max-width: 1320px) {
   #ostrich {
-    visibility: hidden;
+    top: -50px;
   }
 }
-
-
 /* Write your solution here */

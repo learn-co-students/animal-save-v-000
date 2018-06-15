@@ -10,3 +10,17 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 406px) and (max-width: 1100) {
+  #monkey {
+    right: 0;
+    top: 0;
+  }
+}
+/*
++@media screen only and (min-width: 406px) and (max-width: 1090px) {
++  #monkey {
++    position: absolute;
++    left: 0;
++    top: 550px;
++  }
++}*//

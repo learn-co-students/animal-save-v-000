@@ -18,35 +18,10 @@ html {
   right: 0;
 }
 
-
-@media only screen and (max-width: 1050px) {
-
-  #dolphin {
-    top: 200px;
-    left: 600px;
-  }
-}
-
-@media only screen and (max-width: 950px) {
+  @media only screen and (min-width: 642px) and (max-width: 1090px) {
 
   #dolphin {
-    top: 100px;
-    left: 500px;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-
-  #dolphin {
-    top: 200px;
-    left: 400px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-
-  #dolphin {
-    top: 400px;
-    left: 300px;
+    top: 50px;
+    transform: rotate(0.75turn);
   }
 }

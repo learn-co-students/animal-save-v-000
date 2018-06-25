@@ -10,3 +10,22 @@ html {
 
 /* Write your solution here */
 
+
+
+
+@media screen and (max-width: 1190px) {
+
+	#monkey {
+		top: -45px;
+	}
+
+}
+
+
+@media screen and (max-width: 400px) {
+
+	#monkey {
+		top: 550px;
+	}
+
+}

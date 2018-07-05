@@ -8,5 +8,14 @@ html {
   right: 120px;
 }
 
-/* Write your solution here */
+@media only screen and (max-width: 1170px ){
+  #monkey{
+    position: absolute;
+    top: 0px;
+  }
 
+@media only screen and (max-width: 406px ){
+  #monkey{
+    position: absolute;
+    top: 550px;
+  }

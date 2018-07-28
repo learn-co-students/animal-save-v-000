@@ -10,3 +10,12 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 435px) and (max-width: 1180px) {
+    #monkey {
+        top: 0px;
+    }
+
+    #monkey img {
+        width: 80%;
+    }
+}

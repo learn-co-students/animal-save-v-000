@@ -3,6 +3,12 @@ html {
 }
 
 
+#ostrich {
+   position: absolute;
+   top: 50px;
+   right: 0;		  
+ }
+
 /* Write your solution here */
 
 

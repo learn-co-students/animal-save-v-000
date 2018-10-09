@@ -10,3 +10,13 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1350px) {
+  #ostrich{
+    position: fixed;
+    top: -55px;
+    }
+
+  /*html {
+    background: url(../images/croc.jpg) no-repeat bottom left;
+  }*/
+}

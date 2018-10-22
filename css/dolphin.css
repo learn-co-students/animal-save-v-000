@@ -14,9 +14,36 @@ html {
 
 #dolphin {
   position: absolute;
-  top: 400px;
+  top: 80px;
   right: 0;
 }
 
 /* Write your solution here */
 
+/* “If [device width] is less than or equal to 460px, then do {…}” */
+@media only screen and (max-width: 460px) {
+  #dolphin {
+    transform: rotate(0.75turn);
+      top: 400px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #dolphin {
+    transform: rotate(0.25turn);
+      top: 400px;
+  }
+}
+
+
+
+
+
+
+
+/* “If [device width] is greater than or equal to 1170px, then do {…}” */
+@media only screen and (min-width: 1170px) {
+
+#dolphin {
+    top: 400px;
+}

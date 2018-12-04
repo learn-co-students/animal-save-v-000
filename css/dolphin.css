@@ -20,3 +20,50 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1090px) {
+  
+  #dolphin {
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 125px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  
+  #dolphin {
+    transform: rotate(-65deg);
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  
+  #dolphin {
+    transform: rotate(-90deg);
+  }
+}
+
+
+@media only screen and (max-width: 790px) {
+  
+  #dolphin {
+    top: 200px;
+  }
+}
+
+
+@media only screen and (max-width: 790px) {
+  
+  #dolphin {
+    transform: rotate(-100deg);
+    top: 250px;
+  }
+}
+
+@media only screen and (max-width: 642px) {
+  
+  #dolphin {
+    transform: rotate(-20deg);
+    top: 350px;
+  }
+}

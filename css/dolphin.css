@@ -20,3 +20,9 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width:642px) and (max-width: 1094px) {
+  #dolphin { /*  distance between beginning of jump and end of jump */
+    transform: rotate(0.75turn); /*rotates dolphin */
+    top: -50px; 
+  }
+}

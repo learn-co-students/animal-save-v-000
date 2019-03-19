@@ -19,4 +19,11 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (max-width: 1090px) and (min-width: 642px) {
+  #dolphin {
+    top: -10px;
+    transform: rotate(0.5turn);
+    animation:spin 1.5s linear infinite;
+  }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+}

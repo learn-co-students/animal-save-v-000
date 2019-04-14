@@ -10,3 +10,10 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1162px) and (min-width: 406px) {
+    div {
+      position: absolute;
+      top: 0px;
+      left: 100px;
+    }
+}

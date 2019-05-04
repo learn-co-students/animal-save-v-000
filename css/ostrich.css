@@ -10,3 +10,23 @@ html {
 
 /* Write your solution here */
 
+@media all and (290px <= width <= 1360px) {
+  
+  #ostrich {
+    top: -50px;
+  }
+}
+
+/*@media all and (min-width: 290px) and (max-width: 1360px) { /* I added the min-width part. When the ostrich is no longer on top of the alligator, he jumps back down to the ground. 
+  
+  #ostrich {
+    top: -50px;
+  }
+} */
+
+/* @media all and (max-width: 290px) { This gets included in the media query above.
+  
+  #ostrich {
+    top: inherit; /* 50px, just like before.
+  }
+} */

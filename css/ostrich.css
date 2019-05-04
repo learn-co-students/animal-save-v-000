@@ -10,19 +10,19 @@ html {
 
 /* Write your solution here */
 
-@media all and (290px <= width <= 1360px) {
-  
-  #ostrich {
-    top: -50px;
-  }
-}
-
-/*@media all and (min-width: 290px) and (max-width: 1360px) { /* I added the min-width part. When the ostrich is no longer on top of the alligator, he jumps back down to the ground. 
+/* @media all and (290px <= width <= 1360px) { /* This doesn't work, and neither does the "or" operator. This must be recognizing Level 3 instead of Level 4 media queries! 
   
   #ostrich {
     top: -50px;
   }
 } */
+
+@media all and (min-width: 290px) and (max-width: 1360px) { /* I added the min-width part. When the ostrich is no longer on top of the alligator, he jumps back down to the ground. */
+  
+  #ostrich {
+    top: -50px;
+  }
+}
 
 /* @media all and (max-width: 290px) { This gets included in the media query above.
   

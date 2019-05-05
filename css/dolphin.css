@@ -20,3 +20,10 @@ html {
 
 /* Write your solution here */
 
+@media all and (min-width: 642px) and (max-width: 1090px) {
+  
+  #dolphin {
+    top: 50px; /* They had this at 100px. */
+    transform: rotate(-90deg); /* This is the same as what they did: rotate(-0.25turn). rotate(270deg) works as well. */
+  }
+}

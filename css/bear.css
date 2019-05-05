@@ -10,7 +10,7 @@ html {
 
 /* Write your solution here */
 
-@media all and (min-width: 1196px) {
+@media all and (min-width: 1196px) { /* Here and elsewhere, I used "all" instead of "only screen", so that this would include mobile devices as well. */
   
   #bear {
     left: 800px;

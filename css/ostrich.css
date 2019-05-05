@@ -17,7 +17,10 @@ html {
   }
 } */
 
-@media all and (min-width: 290px) and (max-width: 1360px) { /* I added the min-width part. When the ostrich is no longer on top of the alligator, he jumps back down to the ground. */
+@media all and (min-width: 290px) and (max-width: 1330px) { /* I added the min-width part. When the ostrich is no longer on top of the alligator, he jumps back down to the ground. */
+  
+  /* I had this at "max-width: 1360px" but shortened it (after seeing the better solution) so that I could see the ostrich jump when I inspected him. 
+  The solution uses 1320px, which (to me) is just a LITTLE too close for comfort for that bird! XD */
   
   #ostrich {
     top: -50px;

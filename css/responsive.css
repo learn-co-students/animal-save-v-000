@@ -1,0 +1,34 @@
+/* Keep Bear from falling off edge */
+@media only screen and (min-width:1196px){
+
+  #bear{
+    position: fixed;
+    left: 800px;
+  }
+}
+
+/*Ostrich Jump up*/
+@media only screen and (max-width:1150px){
+
+  #ostrich {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width:406px) and (max-width:1090px){
+
+  #monkey{
+    position:absolute;
+    top: 30px;
+  }
+}
+
+@media only screen and (min-width:642px) and (max-width:1090px){
+
+ #dolphin{
+   position:absolute;
+   top:200px;
+   transform: rotate(-40deg);
+ }

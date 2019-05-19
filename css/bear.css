@@ -9,4 +9,11 @@ html {
 }
 
 /* Write your solution here */
+/*breaks @1275px */
 
+@media only screen and (min-width: 1196px){
+  #bear{
+    position: absolute;
+    left: 800px;
+  }
+}

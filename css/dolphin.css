@@ -19,4 +19,9 @@ html {
 }
 
 /* Write your solution here */
-
+@media only screen and (min-width: 650px) and (max-width: 950px) {
+  #dolphin {
+    top: 60px;
+    transform: rotate(180deg);
+  }
+}

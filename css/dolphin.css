@@ -13,10 +13,25 @@ html {
 }
 
 #dolphin {
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+
+@media only screen and (min-width: 642px) and (max-width:1090px){
+
+#dolphin {
   position: absolute;
-  top: 400px;
+  transform: rotate(90deg); /*deg stands for 90 degree*/
+  top: 10px;
   right: 0;
+  }
 }
 
 /* Write your solution here */
 
+/*  For the dolphin, using min-width and
+max-width help her rotate and jump up
+through the hoop from screen sizes of 642px to 1090px.
+ Note: you can use transform: rotate() command to accomplish this.
+Read about the setting for rotate */

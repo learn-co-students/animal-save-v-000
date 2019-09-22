@@ -9,4 +9,11 @@ html {
 }
 
 /* Write your solution here */
+@media screen and (max-width: 1320px) {
+  div#ostrich {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
 
+}

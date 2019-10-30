@@ -10,3 +10,23 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width:1312px) {
+  #ostrich {
+    position: absolute;
+    top: -50px;
+  }
+}
+
+@media only screen and (max-width:945px) {
+  #ostrich {
+    position: absolute;
+    top: -80px;
+  }
+}
+
+@media only screen and (max-width:650px) {
+  #ostrich {
+    position: absolute;
+    top: -50px;
+  }
+}

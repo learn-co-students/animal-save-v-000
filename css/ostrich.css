@@ -9,4 +9,20 @@ html {
 }
 
 /* Write your solution here */
+@media only screen and (max-width: 1273px){
+  #ostrich{
+    top: -150px;
+  }
+}
 
+@media only screen and (max-width: 900px){
+  #ostrich{
+    top: -100px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  #ostrich{
+    top: -75px;s
+  }
+}

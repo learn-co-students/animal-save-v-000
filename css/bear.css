@@ -10,3 +10,22 @@ html {
 
 /* Write your solution here */
 
+/* Take advantage of media queries using max-width for desktop down and min-width for mobile up designs. Also utilize positioning: absolute, as well as properties such as top:, left:, right: ,bottom: to set the animals' positioning. You can also use CSS transform: rotate() if you wish to turn the animals. A single media query should be used to solve each page.
+Write the media queries necessary in the css files for each corresponding animal:
+For the bear, when sizing the browser from smaller to larger (mobile up), when the screen reaches 1196px stop him from falling off the cliff by setting him to stay 800px from the left side of the screen before he reaches the edge. */
+
+@media only screen and (min-width: 1196px) {
+
+/* margin-top vs top
+
+ You'd use margin, if you wanted to move a (block) element away from other elements in the document flow. That means it'd push the following elements away / further down. Be aware that vertical margins of adjacent elements collapse.
+
+If you wanted the element to have no effect on the surrounding elements, you'd use positioning (abs., rel.) and the top, bottom, left and right settings.
+
+With relative positioning, the element will still occupy its original space as when positioned statically. That's why nothing happens, if you just switch from static to relative position. From there, you may then shove it across the surrounding elements.
+
+With absolute positioning, you completely remove the element from the (static) document flow, so it will free up the space it occupied. You may then position it freely - but relative to the next best non-statically positioned element wrapped around it. If there is none, it'll be anchored to the whole page.
+*/
+  #bear {
+  left:800px;
+}

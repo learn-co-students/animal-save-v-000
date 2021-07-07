@@ -4,9 +4,15 @@ html {
 
 #ostrich {
   position: absolute;
-  top: 50px;
-  right: 0;
+  bottom: 300px;
+  right: 0px;
 }
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1300px) {
+	#ostrich {
+		position: absolute;
+		bottom: 450px;
+	}
+}

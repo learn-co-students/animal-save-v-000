@@ -20,3 +20,28 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (max-width: 1200px) {
+	#dolphin {
+		position: absolute; 
+		top: 20px;
+		right: 120px;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+}
+
+@media only screen and (max-width: 740px) {
+	#dolphin {
+		position: absolute; 
+		top: 400px;
+		right: 120px;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+	}
+}

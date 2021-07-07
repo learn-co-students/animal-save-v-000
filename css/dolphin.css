@@ -19,4 +19,17 @@ html {
 }
 
 /* Write your solution here */
-
+/* min-width 642px to max-width 1090px*/
+/*rotate and jump through the hoop*/
+@media only screen and (max-width: 1090px) and (min-width:  642px)  {
+  #dolphin {
+    transform: rotate(-0.25turn);
+    right: 0;
+    display: block;
+    height: 338.4px;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    transform: matrix(6.12323);
+  }
+}

@@ -8,5 +8,27 @@ html {
   right: 120px;
 }
 
-/* Write your solution here */
+@media only screen and (min-width: 406px) and (max-width: 634px) {
+
+	#monkey {
+		top: 0;
+		transform: rotate(0.25turn);
+	}
+}
+
+@media only screen and (min-width: 634px) and (max-width: 862px) {
+
+	#monkey {
+		top: 0;
+		transform: rotate(0.5turn);
+	}
+}
+
+@media only screen and (min-width: 862px) and (max-width: 1090px) {
+
+	#monkey {
+		top: 0;
+		transform: rotate(0.75turn);
+	}
+}
 

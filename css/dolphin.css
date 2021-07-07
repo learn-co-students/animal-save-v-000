@@ -18,5 +18,80 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* Write your solution here 
 
+For the dolphin, using min-width and max-width help her rotate and jump 
+up through the hoop from screen sizes of 642px to 1090px. Note: you can 
+use transform: rotate() command to accomplish this. Read about the 
+setting for rotate here.
+*/
+
+@media all and (min-width: 1082px) and (max-width: 1090px) { 
+  #dolphin {
+    top: 300px;
+  }
+}
+@media all and (min-width: 1040px) and (max-width: 1081px) { 
+  #dolphin {
+    top: 200px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+@media all and (min-width: 900px) and (max-width: 1039px) { 
+  #dolphin {
+    top: 100px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+@media all and (min-width: 700px) and (max-width: 899px) { 
+  #dolphin {
+    top: 50px;
+    -ms-transform: rotate(330deg);
+    -webkit-transform: rotate(330deg);
+    transform: rotate(330deg);
+  }
+}
+@media all and (min-width: 642px) and (max-width: 699px) { 
+  #dolphin {
+    top: 100px;
+    -ms-transform: rotate(250deg);
+    -webkit-transform: rotate(250deg);
+    transform: rotate(250deg);
+  }
+}
+@media all and (min-width: 642px) and (max-width: 650px) { 
+  #dolphin {
+    top: 200px;
+    -ms-transform: rotate(210deg);
+    -webkit-transform: rotate(210deg);
+    transform: rotate(210deg);
+  }
+}
+@media all and (min-width: 642px) and (max-width: 650px) { 
+  #dolphin {
+    top: 300px;
+    -ms-transform: rotate(250deg);
+    -webkit-transform: rotate(250deg);
+    transform: rotate(250deg);
+  }
+}
+
+h1 {
+  position: fixed;
+  font-size: 5em;
+  color: red;
+  font-style: Helvetica;
+  top: 200px;
+  left: 30px;
+  visibility: hidden;
+  z-index: 6;
+}
+@media all and (max-width: 650px) { 
+  h1 {
+    visibility: visible;
+  }
+}

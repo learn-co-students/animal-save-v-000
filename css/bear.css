@@ -10,3 +10,11 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 1195px) {
+
+/*  setting him to stay 800px from the left side of the screen*/
+#bear {
+  left: 800px;
+}
+
+}

@@ -20,3 +20,41 @@ html {
 
 /* Write your solution here */
 
+@media only screen and (min-width: 645px) and (max-width: 698px) {
+
+  #dolphin {
+    transform: rotate(0deg);
+    top: 300px;
+  }
+}
+
+@media only screen and (min-width: 699px) and (max-width: 799px) {
+
+  #dolphin {
+    transform: rotate(-260deg);
+    top: 125px;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+
+  #dolphin {
+    top: 125px;
+    transform: rotate(-180deg);
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1089px){
+
+  #dolphin {
+    top: 125px;
+    transform: rotate(-90deg);
+  }
+}
+
+@media only screen and (min-width: 1090px) {
+
+  #dolphin {
+    top: 300px;
+    transform: rotate(0deg);
+  }
+}

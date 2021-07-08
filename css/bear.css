@@ -8,5 +8,11 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+@media screen and (min-width: 1275px){
 
+  #bear {
+    left: 875px;
+  }
+}
+
+/* Write your solution here */
